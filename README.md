@@ -15,4 +15,24 @@ Wrapped MOAC
 
 # 发布合约
 
+```bash
+jcc_moac_tool --config test --deploy build/contracts/WMOAC.json --gas_limit 3800000
+```
+
 # 基本信息
+
+合约地址:
+MOAC testnet : 0x5c837036509c9ab38494737cc1dfbee6eab6a5e2
+
+# 常用指令
+
+```
+ jcc_moac_tool --config config.test.json --abi build/contracts/WMOAC.json --contractAddr "0x5c837036509c9ab38494737cc1dfbee6eab6a5e2" --method "deposit" --amount "1.234" --gas_limit 98000
+
+ jcc_moac_tool --config config.test.json --abi build/contracts/WMOAC.json --contractAddr "0x5c837036509c9ab38494737cc1dfbee6eab6a5e2" --method "withdraw"  --gas_limit 180000 --parameters 'chain3.toSha("0.1")'
+
+ jcc_moac_tool --config ~/.jcc_moac_tool/config.venus.test.json --abi build/contracts/WMOAC.json --contractAddr "0x5c837036509c9ab38494737cc1dfbee6eab6a5e2" --method "balanceOf" --parameters '"地址"'
+
+jcc_moac_tool --config ~/.jcc_moac_tool/config.venus.test.json --abi build/contracts/WMOAC.json --contractAddr "0x5c837036509c9ab38494737cc1dfbee6eab6a5e2" --method "balanceOf" --parameters '"地址"'
+
+```
