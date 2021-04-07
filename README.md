@@ -24,6 +24,9 @@ jcc_moac_tool --config test --deploy build/contracts/WMOAC.json --gas_limit 3800
 合约地址:
 MOAC testnet : 0x5c837036509c9ab38494737cc1dfbee6eab6a5e2
 
+multicall 合约
+MOAC testnet : 0xc4b00992d186435fced593a691b7138b13971bc8
+
 # 常用指令
 
 ```
